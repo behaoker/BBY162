@@ -1,4 +1,3 @@
-import random
 from tkinter import *
 from PIL import Image, ImageTk
 at = Tk()
@@ -37,7 +36,7 @@ panel2 = Label(at, image=foto2)
 display2 = foto2
 
 def çıkış():
-    etiket['text'] = "Görüşmek Üzere"
+    etiket['text'] = "SİYU"
     ileributon['state'] = "disabled"
     geributon['state'] = "disabled"
     at.after(1000, at.destroy)
